@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.col,.title{
+    background-color: rgb(193, 193, 193);
+}
+
+.title{
+    text-align: center;
+    width: 100%;
+    padding: 8px 16px;
+}
+.title h1{
+    font-weight: 100;
+
+}
+.content {
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+    padding: 8px;
+}
+.content h4 {
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.content p {
+    font-size: 14px;
+    color: gray;
+    margin: 20px 0;
+}
+
+.content h6, .content h5 {
+    font-size: 14px;
+    margin: 0 0 4px;
+}
+
+.content h5 {
+    font-weight: bold;
+}
+
+.content button {
+    color: white;
+    background-color: rgb(2, 175, 2);
+    border: none;
+    padding: 6px 10px;
+    border-radius: 4px;
+}
+
+.content button:hover {
+    background-color: orange;
+}
+
+.content i {
+    font-weight: bold;
+}
+.img{
+    display: block;
+    position: relative;
+
+}
+.sale {
+    padding: 4px 0px;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 55%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.sale .new {
+    width: 40%;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+}
+
+.sale .off {
+    width: 60%;
+    color: white;
+    font-weight: bold;
+    background-color: brown;
+}
+@media screen and (max-width:575px){
+    .sale {
+        width: 30%;
+    }
+}
